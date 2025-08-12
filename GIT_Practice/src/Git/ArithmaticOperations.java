@@ -10,20 +10,20 @@ public class ArithmaticOperations {
 		System.out.print("Enter 1st Number:");
 		int y = sc.nextInt();
 		
-		int addn = Addition(x, y);
+		double addn = Addition(x, y);
 		System.out.println("Adddition is: "+addn);
 		
-		int subt = subtraction(x, y);
+		double subt = subtraction(x, y);
 		System.out.println("Subtraction is: "+subt);
 	}
 	
 	// Addition Logic by Dev2
-	public static int Addition(int x, int y) {
+	public static double Addition(double x, double y) {
 		return x+y;
 	}
 	
 	// Subtraction Logic by Dev1
-	public static int subtraction(int x, int y) {
+	public static double subtraction(double x, double y) {
 		return x-y;
 	}
 }
