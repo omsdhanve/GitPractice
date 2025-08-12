@@ -14,7 +14,7 @@ public class ArithmaticOperations {
 		System.out.println("Adddition is: "+addn);
 		
 		int subt = subtraction(x, y);
-		System.out.println("Adddition is: "+subt);
+		System.out.println("Subtraction is: "+subt);
 	}
 	
 	// Addition Logic by Dev2
