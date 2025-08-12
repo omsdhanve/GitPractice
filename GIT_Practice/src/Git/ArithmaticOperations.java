@@ -9,6 +9,13 @@ public class ArithmaticOperations {
 		int x = sc.nextInt();
 		System.out.print("Enter 1st Number:");
 		int y = sc.nextInt();
-		System.out.println("Adddition is: "+(x+y));
+		
+		int addn = Addition(x, y);
+		System.out.println("Adddition is: "+addn);
+	}
+	
+	// Addition Logic by Dev2
+	public static int Addition(int x, int y) {
+		return x+y;
 	}
 }
