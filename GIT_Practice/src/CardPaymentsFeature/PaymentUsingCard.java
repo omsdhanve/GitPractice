@@ -8,4 +8,8 @@ public class PaymentUsingCard {
 	public String PayUsingCreditCard(long cardNo, Double amt) {
 		return "Rs."+amt+" bill payment done using CreditCard";
 	}
+	
+	public String PayUsingGiftCard(long cardNo, Double amt) {
+		return "Rs."+amt+" bill payment done using GiftCard";
+	}
 }
