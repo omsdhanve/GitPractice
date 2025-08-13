@@ -10,7 +10,7 @@ public class UPIPayment {
 	}
 	
 	public String doPaymentUsingAmazonPay(long phno,double amount) {
-		return null;
+		return "Rs."+amount+" is sending to phno: "+phno+" using GPay";
 	}
 	
 }
